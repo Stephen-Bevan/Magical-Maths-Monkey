@@ -119,9 +119,14 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
+- *Bootcamp Bandit "AboutUs" Icons*
+  * <a href=">https://www.flaticon.com/free-stickers/wester" title="wester stickers">Wester stickers created by Stickers - Flaticon</a>
+- *Game Icons*
+  * <a target="_blank" href="https://icons8.com/icon/w8U4rsGOoXWB/monkey-face">Monkey Face</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  * <a target="_blank" href="https://icons8.com/icon/32xJTtC6pbOL/see-no-evil-monkey">See no Evil Monkey</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  * <a target="_blank" href="https://icons8.com/icon/p7YHa8almDEQ/banana">Banana</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- *Background Image*
+  * <a href="https://www.vecteezy.com/free-vector/jungle">Jungle Vectors by Vecteezy</a>
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 

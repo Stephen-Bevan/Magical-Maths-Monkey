@@ -3,19 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets /images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets /images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets /images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    
     <!-- Title -->
     <title>Magical Math Monkeys!</title>
+
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <heading>
-        <h1>About Us!</h1>
-    </heading>
+    <!-- Header section displaying the main title -->
+    <header class="text-center">
+        <h1 class="display-1">Magical Maths Monkey</h1>
+    </header>
 
+    <div>
+        <!-- Navigation bar section -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <div class="mx-auto">
+                    <!-- Button for toggling the navigation menu on small screens -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Collapsible navbar menu -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Unordered list for navigation links -->
+                        <ul class="navbar-nav">
+                            <!-- Individual navigation items -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="aboutus.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quiz.html">Quiz</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    <!-- MAIN BODY SECTIONS -->
+    <!-- ABOUT US / Who We Are section -->
     <section id="aboutus1">
         <div id="who" class="">
             <h2>About Bootcamp Bandits</h2>
@@ -24,7 +62,7 @@
             <p>Vestibulum cubilia dis tempus, dictum mus auctor. Massa erat mi placerat, nulla hac in placerat. Nisl integer habitant lectus maecenas pharetra congue. In iaculis lacinia nec porta rhoncus ex fusce cubilia mattis.</p>
         </div>
     </section>
-
+    <!-- Coming Soon! Feature Updates -->
     <section id="aboutus2">
         <div id="" class="">
             <h2>Coming Soon! (Future Updates)</h2>
@@ -33,17 +71,27 @@
             <p>Ultrices fusce pretium sagittis elementum lectus suspendisse fusce iaculis augue. Litora congue curabitur pretium proin ultricies elementum. Aptent lorem placerat; felis vitae orci vel laoreet.</p>
         </div>
     </section>
-
+    <!-- Follow Us! Get More Updates  -->
     <section id="aboutus3">
         <div id="" class="">
             <h2>Follow Us!</h2></div>
     </section>
 
+    <!-- Links to 3rd Party Education Boards (hidden title?)-->
     <section id="aboutus4">
         <div id="" class="">
             <h2>External Authority Links</h2>
             <p><a href="https://ncca.ie/en/" class="c-logo" target="_blank"><img src="https://curriculumonline.ie/getmedia/d19c0ea2-4bc2-4607-b92d-79c75a9383d1/c-logo-NCCA-dark.svg?ext=.svg" alt="NCCA Logo"></a></p>
         </div>
     </section>
+    
+        <!-- Footer section -->
+        <footer class="bg-light text-center py-3">
+            <p>Bootcamp Bandits</p> <!-- Footer text, displaying project/group name -->
+        </footer>
+      
+        <!-- Bootstrap JavaScript for interactive elements like the navbar toggler -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 </html>

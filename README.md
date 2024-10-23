@@ -1,80 +1,76 @@
 # Magical-Maths-Monkey
 
-# Template for the read.me file. 
-TEST UPDATE
 
-TEST  
+Magical Maths Monkey is a fun educational game designed to help children (ages 8-9) improve their times tables. The game makes learning interactive, with customizable settings and engaging features that encourage practice and self-assessment.
 
+The project is created by: Stephen, Emma, Borys.
 
-TEST 
+The main goals of the project are: 
+1. Help children improve their times tables (1x to 12x).
+2. Make learning fun and interactive.
+3. Provide feedback for self-correction.
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+The Wireframe for the project: 
+https://balsamiq.cloud/sfqofub/pgj5zvp/rEDB4
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+![Wireframe1] (wireframe1.jpg)
+assets/images/wireframe1.jpg 
+/workspace/Magical-Maths-Monkey/assets/images/wireframe1.jpg 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Wireframe2] (wireframe2.jpg)
+/workspace/Magical-Maths-Monkey/wireframe2.jpg
 
-## Features 
+![Wireframe3] (wireframe3.jpg)
+/workspace/Magical-Maths-Monkey/wireframe3.jpg
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+ - Featured on all three pages, the full responsive navigation bar includes links to the About us, Home page, Quiz pages. And  it is identical in each page to allow for easy navigation.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/workspace/Magical-Maths-Monkey/navbar.jpg)
+navbar.jpg 
 
-- __The landing page image__
+- __The About us page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The About us page explains the user about the team of Bootcamp Bandits, about the future updates. It also has the Follow up section with the form, where the user can input the email address, in order to keep in touch with us. Also you can find the links to the social media platforms. 
+  ![About us Page](/workspace/Magical-Maths-Monkey/aboutus.html)
+aboutus.html 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![FollowUs] (/workspace/Magical-Maths-Monkey/followuspage.jpg) 
+followuspage.jpg 
 
-- __Club Ethos Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __The Quiz Page__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The Time Tables Quiz provides us with the option to do the multiplication quiz and practice your maths skills. When the answer is correct - you will see the popup message. The same goes with the popup message when the answer is not correct.
 
-- __Meetup Times section__
+![Quiz Page](/workspace/Magical-Maths-Monkey/quizpage.jpg)
+quizpage.jpg
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer section includes the information and logo of the Bootcamp Bandits.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/workspace/Magical-Maths-Monkey/footerpage.jpg)
+footerpage.jpg
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- The feature of multipliation tables is still in the progress. We are working on adding the Javascript functionality to it. We are planning to release it in the next iteration.
+
+![Multiplication] (/workspace/Magical-Maths-Monkey/multiplicationpage.jpg)
+multiplicationpage.jpg
+
+ 
+
 
 ## Testing 
 

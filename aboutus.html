@@ -19,7 +19,7 @@
     <!-- Inline CSS-->
      <style>
         #monkey1, #monkey2, #monkey3 {
-            width: 100px;
+            width: 6.25em;
             height: auto;
         }
 
@@ -41,11 +41,35 @@
 
         h2 {
             text-align: start;
+            display: table;
+            padding: 1em;
+            font-size: 20px;
+            background-color: #C6ED9E;
+            color: #204E4A;
         }
 
         #signup {
-            padding: 10px 10px;
-            margin: 10px 10px;
+            display: table;
+            padding: 0.625em 0.625em;
+            margin: 0.625em 0.625em;
+            background-color: #C6ED9E;
+            color: #204E4A;
+        }
+
+        #whoweare, #whatsnext {
+            display: table;
+            padding: 1em;
+            font-size: 20px;
+            background-color: #FFE557;
+            color: #204E4A;
+        }
+
+        #findus {
+            display: table;
+            font-size: 20px;
+            margin: 1em;
+            background-color: #FFE557;
+            color: #204E4A;
         }
 
      </style>
@@ -105,10 +129,10 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-7">
+            <div id="whoweare" class="col-7">
                 <p>Now that's a good question!</p>
-                <p>We are Stephen, Borys and Emma, three junior programmers based out of Cork, Ireland! As the Bootcamp Bandits, we want to make apps that make learning easier and more fun for both kids and for teachers.</p>
-                <p>We all remember how much we struggled with multiplication when we were all at school, and that's why we dedicated our first maths-themed app towards practicing your times tables! </p>
+                <p>We are Stephen, Borys and Emma, three junior programmers based out of Cork, Ireland!</p>
+                <p>We all remember how much we struggled with multiplication when we were all at school. As the Bootcamp Bandits, we want to make apps that make learning easier and more fun for both kids and for teachers, and that's why we dedicated our first maths-themed app towards practicing your times tables! </p>
             </div>
         </div>
     </div>
@@ -126,13 +150,8 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-7">
+            <div id="whatsnext" class="col-7">
                 <p>We have many plans to make the Magical Maths Monkey quiz bigger and better, with plenty of bananas to go around!</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
             </div>
         </div>
     </div>
@@ -149,12 +168,12 @@
                     <h2>Follow Us!</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-7">
-                    <p>Want to stay up-to-date with the Bootcamp Bandits? You can check out our latest details online at the following social spaces!</p>
+            <div id="findus" class="row">
+                <div class="col justify-content-center">
+                    <p>Want to stay up-to-date with the Bootcamp Bandits?<br>You can check out our latest details online at the following social spaces!</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div id="sociallinks" class="row justify-content-center">
                 <div class="col-2">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>

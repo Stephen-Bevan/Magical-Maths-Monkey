@@ -3,5 +3,19 @@ body {
     background-size: cover;
     background-position: center;
     
+    font-family: "Lexend Deca", sans-serif;
+
 }
 
+header {
+  background-color: #204E4A;
+}
+
+.purpose {
+  text-align: center; 
+
+}
+
+footer {
+  background-color: #204E4A;
+}

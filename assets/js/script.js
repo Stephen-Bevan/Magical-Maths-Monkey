@@ -1,3 +1,4 @@
+console.log('loaded');
 var num1, num2;
 
         function generateQuestion() {

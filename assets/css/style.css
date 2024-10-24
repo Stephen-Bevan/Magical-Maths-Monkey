@@ -3,9 +3,14 @@ body {
     background-size: cover;
     background-position: center;
 
+
 }
 
 .purpose {
-  text-align: center;  
+  text-align: center; 
+  
+    font-family: "Lexend Deca", sanserif;
+    
+
 }
 

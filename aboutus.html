@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magical Maths Monkeys is a fun and interactive quiz game designed to help kids improve their math skills while having fun with monkeys!">
+    <meta name="keywords" content="maths quiz, kids quiz, math games, educational games, learning, children, monkeys, interactive game, fun math, magical maths monkeys">
     
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
@@ -16,10 +18,16 @@
     <!-- Bootstrap CSS for styling -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
     <!-- Inline CSS-->
      <style>
         #monkey1, #monkey2, #monkey3 {
-            width: 100px;
+            width: 6.25em;
             height: auto;
         }
 
@@ -34,18 +42,53 @@
 
     /* H1 positioning */
         
-        #pagetitle {
+        /* #pagetitle {
             text-align: center;
             text-decoration-line: underline;
-        }
+            font-size: 30px;
+            background-color: none !important;
+            color: #204E4A; 
+        } */
+    
 
         h2 {
             text-align: start;
+            display: table;
+            padding: 1em;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #C6ED9E;
+            color: #204E4A;
         }
 
         #signup {
-            padding: 10px 10px;
-            margin: 10px 10px;
+            display: table;
+            padding: 0.625em 0.625em;
+            margin: 0.625em 0.625em;
+            background-color: #C6ED9E;
+            color: #204E4A;
+        }
+
+        #whoweare, #whatsnext {
+            display: table;
+            padding: 1em;
+            font-size: 18px;
+            background-color: #FFE557;
+            color: #204E4A;
+        }
+
+        #findus {
+            display: table;
+            font-size: 18px;
+            margin: 1em;
+            background-color: #FFE557;
+            color: #204E4A;
+        }
+
+        #sociallinks {
+            margin: 1em;
+            background-color: #FFE557;
+            color: #204E4A;
         }
 
      </style>
@@ -92,9 +135,6 @@
     <!-- MAIN BODY SECTIONS -->
     <!-- ABOUT US / Who We Are section -->
 <section id="aboutus1">
-    <div id="pagetitle">
-        <h1>About Us!</h1>
-    </div>
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-1">
@@ -105,10 +145,10 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-7">
+            <div id="whoweare" class="col-7">
                 <p>Now that's a good question!</p>
-                <p>We are Stephen, Borys and Emma, three junior programmers based out of Cork, Ireland! As the Bootcamp Bandits, we want to make apps that make learning easier and more fun for both kids and for teachers.</p>
-                <p>We all remember how much we struggled with multiplication when we were all at school, and that's why we dedicated our first maths-themed app towards practicing your times tables! </p>
+                <p>We are Stephen, Borys and Emma, three junior programmers based out of Cork, Ireland!</p>
+                <p>We all remember how much we struggled with multiplication when we were at school. As the Bootcamp Bandits, we want to make apps that make learning easier and more fun for both kids and for teachers, and that's why we dedicated our first maths-themed app towards practicing your times tables! </p>
             </div>
         </div>
     </div>
@@ -126,13 +166,8 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-7">
+            <div id="whatsnext" class="col-7">
                 <p>We have many plans to make the Magical Maths Monkey quiz bigger and better, with plenty of bananas to go around!</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
             </div>
         </div>
     </div>
@@ -149,12 +184,12 @@
                     <h2>Follow Us!</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-7">
-                    <p>Want to stay up-to-date with the Bootcamp Bandits? You can check out our latest details online at the following social spaces!</p>
+            <div id="findus" class="row">
+                <div class="col justify-content-center">
+                    <p>Want to stay up-to-date with the Bootcamp Bandits?<br>You can check out our latest details online at the following social spaces!</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div id="sociallinks" class="row justify-content-center">
                 <div class="col-2">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>

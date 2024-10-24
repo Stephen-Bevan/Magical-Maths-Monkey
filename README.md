@@ -22,9 +22,8 @@ https://miro.com/app/board/uXjVLTWCL6s=/
 The Wireframe for the project: 
 https://balsamiq.cloud/sfqofub/pgj5zvp/rEDB4
 
-![Wireframe1] (wireframe1.jpg)
-assets/images/wireframe1.jpg 
-/workspace/Magical-Maths-Monkey/assets/images/wireframe1.jpg 
+![Wireframe1] (/workspace/Magical-Maths-Monkey/readme/wireframe1.jpg)
+
 
 ![Wireframe2] (wireframe2.jpg)
 /workspace/Magical-Maths-Monkey/wireframe2.jpg
@@ -109,6 +108,8 @@ The website is mobile-friendly and compatible with interactive whiteboards.
 
 
 ### Validator Testing 
+- The website pages are responsive on the big screen 
+![Validation] Bigscreen (/workspace/Magical-Maths-Monkey/readme/bigscreenvalid.jpg)
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)

@@ -65,10 +65,15 @@ navbar.jpg
 
   - The About us page explains the user about the team of Bootcamp Bandits, about the future updates. It also has the Follow up section with the form, where the user can input the email address, in order to keep in touch with us. Also you can find the links to the social media platforms. 
   ![About us Page](readme/aboutuspage.jpg)
-aboutus.html 
 
-![FollowUs] (readme/followuspage.jpg) 
-followuspage.jpg 
+  The most current page is:
+
+  ![CurrentAboutUsPage](readme/cureentaboutus.jpg)
+
+
+
+![FollowUs](readme/followuspage.jpg) 
+
 
 
 - __The Quiz Page__

@@ -1,4 +1,4 @@
-let num1, num2;
+var num1, num2;
 
         function generateQuestion() {
             num1 = Math.floor(Math.random() *12) + 1;

@@ -109,7 +109,7 @@ The website is mobile-friendly and compatible with interactive whiteboards.
 
 
 ### Validator Testing 
-
+- The page is responsive on the big screen 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS

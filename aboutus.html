@@ -28,7 +28,7 @@
      <style>
 
         #monkey1, #monkey2, #monkey3 {
-            width: 6.25em;
+            width: 100%;
             height: auto;
         }
 
@@ -51,8 +51,9 @@
             color: #204E4A; 
         } */
         
-        p {
-            text-align: center;
+        body {
+            text-align: justify;
+            justify-content: center;
         }
 
         h2 {
@@ -100,7 +101,7 @@
 
 <body>
 <!-- Header section displaying the main title -->
-<header class="text-center bg-secondary text-white py-3">
+<header class="text-center bg-#204E4A text-white py-3">
     <h1 class="display-1">Magical Maths Monkey</h1>
 </header>
 
@@ -141,7 +142,7 @@
 <section id="aboutus1">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-1 img-fluid">
+            <div class="col-2 img-fluid offset-1">
                 <img id="monkey1" src="assets/images/dynamite.png" alt="A mischevious bandit monkey wearing a bandana brandishes dynamite.">
             </div>
             <div class="col-6">
@@ -162,7 +163,7 @@
 <section id="aboutus2">
     <div id="soon" class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-1 img-fluid">
+            <div class="col-2 img-fluid offset-1">
                 <img id="monkey2" src="assets/images/saloon.png" alt="A mischevious bandit monkey stares at you from the opening between two saloon swing doors.">
             </div> 
             <div class="col-6">
@@ -181,7 +182,7 @@
     <section id="aboutus3">
         <div class="container justify-content-center">
             <div class="row d-flex align-items-center">
-                <div class="col-1 img-fluid">
+                <div class="col-2 img-fluid offset-1">
                     <img id="monkey3" src="assets/images/rope.png" alt="A mischevious monkey is using a rope as a lasso.">
                 </div>
                 <div class="col-6">
@@ -194,16 +195,16 @@
                 </div>
             </div>
             <div id="sociallinks" class="row justify-content-center">
-                <div class="col-2">
+                <div class="col-2 text-center">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
                 </div>
-                <div class="col-2">
+                <div class="col-2 text-center">
                     <a href="https://www.twitter.com/" target="_blank" rel="noopener"
                         aria-label="Visit our Twitter/X page (opens in a new tab)">
                         <i class="fa-brands fa-x-twitter"></i></a>
                 </div>
-                <div class="col-2">
+                <div class="col-2 text-center">
                     <a href="https://www.youtube.com/" target="_blank" rel="noopener"
                         aria-label="Visit our Youtube page (opens in a new tab)">
                         <i class="fa-brands fa-square-youtube"></i></a>
@@ -221,17 +222,17 @@
 
     <!-- Links to 3rd Party Education Boards (hidden title?)-->
     <section id="aboutus4" aria-label="A section for Links to external Education links.">
-                <div id="external-links" class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <p><a href="https://ncca.ie/en/" class="c-logo" target="_blank" aria-label="Link to the external website for the National Council for Curriculum and Assessment."><img src="https://curriculumonline.ie/getmedia/d19c0ea2-4bc2-4607-b92d-79c75a9383d1/c-logo-NCCA-dark.svg?ext=.svg" alt="NCCA Logo"></a></p>
+        <div id="external-links" class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-1 text-center">
+                    <a href="https://ncca.ie/en/" class="c-logo" target="_blank" aria-label="Link to the external website for the National Council for Curriculum and Assessment."><img src="https://curriculumonline.ie/getmedia/d19c0ea2-4bc2-4607-b92d-79c75a9383d1/c-logo-NCCA-dark.svg?ext=.svg" alt="NCCA Logo"></a>
                 </div>
             </div>
         </div>
     </section>
     
         <!-- Footer section -->
-        <footer class="bg-light text-center py-3">
+        <footer class="bg-#204E4A text-center text-white py-3">
             <!-- Footer text, displaying project/group name -->
             <p><i class="fa-regular fa-copyright"></i> Bootcamp Bandits</p>
         </footer>

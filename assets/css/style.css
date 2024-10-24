@@ -2,8 +2,10 @@ body {
     background-image: url('../images/jungle.jpg');
     background-size: cover;
     background-position: center;
-    
-    
-    
+
+}
+
+.purpose {
+  text-align: center;  
 }
 

@@ -2,15 +2,19 @@ body {
     background-image: url('../images/jungle.jpg');
     background-size: cover;
     background-position: center;
+    font-family: "Lexend Deca", sans-serif;
 
+}
 
+header {
+  background-color: #204E4A;
 }
 
 .purpose {
   text-align: center; 
-  
-    font-family: "Lexend Deca", sanserif;
-    
 
 }
 
+footer {
+  background-color: #204E4A;
+}
